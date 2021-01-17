@@ -1,0 +1,264 @@
+*{
+	margin:0px;paddibng:0px;
+}
+body{
+	font-family:roboto;
+	font-size:14px;
+	line-height:24px;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family:roboto;
+}
+a,a:hover{
+	text-decoration:none;
+}
+/*header-section start*/
+.header-section{
+	width:100%;
+	background:url(../image/hero.png)center top no-repeat;
+	background-size:cover;
+	margin:0px;
+	
+	
+
+}
+.header .navbar .navbar-toggler-icon{
+
+}
+
+.header-section .navbar-brand img{
+	width:100px;
+
+}
+.header-section .navbar-nav .nav-item .nav-link.active{
+	font-size:16px;
+	color:#511de5;
+	font-weight:600;
+}
+.header-section  .navbar-nav .nav-item .nav-link{
+	font-size:16px;
+	color:#1a1a1a;
+	font-weight:600;
+	margin:0px 20px;
+}
+.header-section .navbar-nav .nav-item .nav-link:hover,.header-section .inner-header .navbar-nav .nav-item .nav-link:focus{
+	color:#511de5;
+	background:url(../image/under-hover.png)center bottom no-repeat;
+	background-size:contain;
+	
+}
+.header-section .d-flex .navbar-nav .nav-item{
+	margin:0px 20px;
+}
+.header-section .d-flex .navbar-nav .nav-item .btn-info{
+	width:170px;
+	padding:8px 10px;
+	border:none;
+	box-shadow:none;
+	background:linear-gradient(to right,#511de5,#1b73f6 );
+
+}
+.header-section .d-flex .navbar-nav .nav-item .btn-info:hover,.header-section .d-flex .navbar-nav .nav-item .btn-info:focus{
+	width:170px;
+	padding:8px 10px;
+	border:none;
+	background:linear-gradient(to right,#1b73f6,#511de5);
+}
+
+/*banner section*/
+.banner{
+	padding:150px 0px;
+	margin:0px;
+}
+.inner-banner{
+	width:100%;
+	padding:100px 0px;
+	text-align:right;
+
+
+}
+.inner-banner h1{
+	font-size:60px;
+	font-weight:800;
+	line-height:70px;
+	margin:;
+	text-transform:capitalize;
+}
+.inner-banner h1 span{
+	color:#511de5;
+}
+.inner-banner .btn{
+	padding:8px 30px;
+	background:#f2f2f2;
+	font-weight:500;
+	color:#061113;
+	border:1px solid #f2f2f2;
+	letter-spacing:2px;
+	box-shadow:none;
+	margin-top:30px;
+}
+.inner-banner .btn:hover,.inner-banner .btn:focus{
+	color:#fff;
+	border:1px solid #1b73f6;
+	background:#1b73f6;
+}
+
+
+
+
+/*banner ends*/
+
+/*header section ends*/
+
+/*highlighted area starts*/
+.highlighted-area{
+	width:100%;
+	margin:0px;
+
+
+}
+.highlighted-area .inner-highlight{
+	width:100%;
+	padding:50px 0px;
+	background:url("../image/Highlight area.png") center no-repeat;
+	background-size:cover;
+	
+}
+.highlighted-area .inner-highlight img{
+	width:150px;
+	margin:-40px 0px 0px 75px;
+}
+
+.highlighted-area .inner-highlight .w-description h4{
+	width:66%;
+	color:#fff;
+	padding:10px 0px;
+	font size:25px;
+	font-weight:600;
+	text-align:center;
+	text-transform:capitalize;
+}
+
+
+/*highlighted area ends*/
+
+
+
+
+
+
+
+/*responsile part start*/
+
+/*## Device = most of the smatrphones mobile (portrait)
+## screen = B/W 320px to 479px
+*/
+
+
+@media (min-width:320px) and (max-width:480px){
+	/******* code start******/
+	.header-section{
+	width:100%;
+	background:url(../image/hero.png)center bottom no-repeat;
+	background-size:320px;
+	margin:0px;
+	
+	
+
+}
+.banner{
+	padding:50px 0px;
+}
+.inner-banner{
+	width:100%;
+	padding:50px 0px;
+	text-align:right;
+
+
+}
+.navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.55);
+    border-color: rgba(0,0,0,.1);
+    width: 34px;
+    height: 30px;
+}
+.navbar-toggler-icon {
+    display: inline-block;
+    width: 10px;
+    height: 24px;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+	.header-section .navbar-nav .nav-item .nav-link:hover,.header-section .inner-header .navbar-nav .nav-item .nav-link:focus{
+	 color: #511de5;
+    background: url(../image/under-hover.png)left bottom no-repeat;
+    background-size: 67px;
+}
+	.header-section .d-flex .navbar-nav .nav-item{
+	margin:0px 0px 20px 0px;
+}
+.header-section .d-flex .navbar-nav .nav-item .btn-info{
+	width:100px;
+	padding:5px 10px;
+	border:none;
+	box-shadow:none;
+	background:linear-gradient(to right,#511de5,#1b73f6 );
+
+}
+.inner-banner h1{
+	font-size:20px;
+	font-weight:600;
+	line-height:30px;
+	margin-right:80px;
+	text-transform:capitalize;
+}
+.inner-banner .btn{
+	padding:8px 10px;
+	background:#f2f2f2;
+	font-size:10px;
+	font-weight:500;
+	color:#061113;
+	border:1px solid #f2f2f2;
+	letter-spacing:2px;
+	box-shadow:none;
+	margin-top:30px;
+	margin-right:80px;
+}
+
+	
+}
+
+
+	/******* code end******/
+
+
+}
+
+/*## Device = low resulation tablets,Mobiles(Landscape)
+## screen = B/W 480px to 767px
+*/
+
+@media (min-width:481px) and (max-width:767px){
+	/************* code start**********/
+
+
+
+
+
+
+}
+	
+	/******* code ends******/
+
+}
+/*##Devics = Tablets ipad (porttrait)
+##screen = B/W 768px to 1024px
+*/
+@media (min-width:768px) and (max-width:1024px){
+	/********code start*********/
+	/******** code ends ******/
+}
+/*responsible part ends*/
